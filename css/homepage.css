@@ -40,6 +40,42 @@ p {
     margin-bottom: 20px;
 }
 
+a.title:link{
+  color: #0022ff;
+  background-color: rgba(255, 255, 255, 0.50);
+  text-decoration:none;
+  padding: 4px;
+  border: 2px solid #0022ff;
+  /*margin: 0px;*/
+}
+
+a.title:visited{
+  color: #0022ff;
+  background-color: transparent;
+  text-decoration:none;
+  padding: 4px;
+  border: 2px solid #0022ff;
+  /*margin: 0px;*/
+}
+
+a.title:hover{
+  color: #7700ff;
+  background-color: rgba(255, 255, 255, 0.60);
+  text-decoration:none;
+  padding: 4px;
+  border: 2px solid #7700ff;
+  /*margin: 0px;*/
+}
+
+a.title:active{
+  color: #7700ff;
+  background-color: rgba(255, 255, 255, 0.60);
+  text-decoration:none;
+  padding: 4px;
+  border: 2px solid #7700ff;
+  /*margin: 0px;*/
+}
+
 blockquote {
     color: #3f3f3f;
     font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', Times, serif;
