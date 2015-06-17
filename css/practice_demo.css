@@ -1,7 +1,12 @@
 @charset "UTF-8";
 
 body {
+    color: #202020;
     background-color: rgba(20, 128, 196, 0.4);
+
+    font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 h1 {
@@ -48,41 +53,21 @@ p {
     font-weight: bold;
 }
 
-a.title{
-  /*margin: 0px;*/
 
-  padding: 4px;
+.QuesTable th, .QuesTable td{
+  width: 50%;
 
-  text-decoration:none;
-  color: #0022ff;
-  border: 2px solid #0022ff;
+  text-align: left;
+  vertical-align: middle;
+
+  border: 1px solid black;
 }
 
-a.title:link, a.title:visited{
-  background-color: rgba(255, 255, 255, 0.50);
+.QuesTable .Choice_Letter{
+  text-align: right;
+  width: 5%;
 }
 
-a.title:hover, a.title:active{
-  background-color: rgba(255, 255, 255, 0.65);
-}
-
-blockquote {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 40px;
-
-    color: #3f3f3f;
-
-    font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', Times, serif;
-    font-size: 20px;
-    /*font-weight: bold;*/
-}
-
-img {
-    margin-left: 40px;
-}
-
-table {
-    margin-top: 10px;
-    margin-bottom: 10px;
+.QuesTable .Choice_Text{
+  width: 45%;
 }
